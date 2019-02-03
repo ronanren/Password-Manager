@@ -156,7 +156,7 @@ def code(event):
         fenetre1.geometry("400x375+500+200")
         fenetre1.title("gestionnaire de mot de passe")
         fenetre1.resizable(width=False, height=False)
-        color = "#1abc9c"
+        color = "#9E9E9E"
         font = tkFont.Font(family='Helvetica', size=16)
         fenetre1.configure(background=color) 
         bouton2 = Button(fenetre1, text="\nQuitter\n", command=quitter)
